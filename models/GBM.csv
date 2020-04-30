@@ -1,0 +1,9 @@
+﻿n_estomators,max_depth,max_features,file_name
+50,5,25,GBM_model1
+50,8,5,GBM_model2
+50,8,25,GBM_model3
+50,5,5,GBM_model4
+500,5,25,GBM_model5
+500,8,25,GBM_model6
+500,8,5,GBM_model7
+500,5,5,GBM_model8

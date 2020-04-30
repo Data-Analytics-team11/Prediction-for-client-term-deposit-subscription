@@ -50,11 +50,11 @@ app.layout = html.Div(children = [html.H1(children = 'Prediction of term deposit
                      
 def output(model,data):
     if model =='Decision Tree' and data == 'SMOTE':
-        pkl1_filename = "DecisionTree.pkl"
+        pkl1_filename = "KNN_model1.pkl"
     with open(pkl1_filename, 'rb') as file1:
         DT_model = pickle.load(file1)
     y_pred=DT_model.predict(X_test)
-    return classification_report(y_test,y_pred)
+    return 
     
 if __name__ == '__main__':
  app.run_server(debug=True,use_reloader=False)
